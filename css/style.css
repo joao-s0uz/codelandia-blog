@@ -98,7 +98,7 @@
 .artigo-blog h2 {
     color: var(--cor-texto1);
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     letter-spacing: 0.5px;
 }
 
@@ -111,7 +111,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .artigo-blog div:first-of-type>span {
@@ -122,4 +122,23 @@
 
 .artigo-blog div:first-of-type>img {
     cursor: pointer;
+}
+
+/* === RESPONSIVIDADE === */
+
+@media (max-width: 1100px) {
+    .container-topo {
+        width: 90%;
+    }
+
+    .conteudo-principal {
+        padding-top: 75px;
+    }
+
+    .artigo-blog {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
 }
